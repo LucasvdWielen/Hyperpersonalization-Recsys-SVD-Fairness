@@ -16,6 +16,11 @@ We build three personalized recommendation models — **SVD++**, **UserKNN**, an
 - **Yelp Open Dataset**  
   Used for fairness evaluation with gender as the only sensitive attribute available.
 
+## Datasets needed for this YelpV2.ipynb:
+
+- `archive (2).zip`  
+  Zipped version of the Yelp dataset (raw source).
+
 - **MovieLens 100K**  
   Includes demographic information like age and gender. Used for all model training, testing, and fairness evaluation.
   
