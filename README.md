@@ -13,6 +13,9 @@ We build three personalized recommendation models — **SVD++**, **UserKNN**, an
 
 ## Datasets Used
 
+- **Yelp Open Dataset**  
+  Used for fairness evaluation with gender as the only sensitive attribute available.
+
 - **MovieLens 100K**  
   Includes demographic information like age and gender. Used for all model training, testing, and fairness evaluation.
   
@@ -38,8 +41,6 @@ We build three personalized recommendation models — **SVD++**, **UserKNN**, an
   - `df_full.csv`  
   Preprocessed dataset combining ratings and user/item metadata.
 
-- **Yelp Open Dataset**  
-  Used for fairness evaluation with gender as the only sensitive attribute available.
 
 ## Fairness Metrics Applied
 
